@@ -188,7 +188,7 @@ The basic idea is to use a hash-map mapping from topics (`String`) to a set of u
 
 The broker data model for the storage is illustrated below
 
-![](assets/markdown-img-paste-20200218140526335.jpg)
+![](assets/storagedatamodel.jpg)
 
 You are required to complete the implementation of the following methods in the `Storage.java` class:
 
