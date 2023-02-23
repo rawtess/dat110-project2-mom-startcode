@@ -362,6 +362,10 @@ and then build and execute the application using maven:
 mvn clean javafx:run
 ```
 
+It is also possible to run the above maven build from within an IDE:
+
+- Eclipse: Right-click on project and then `Run As -> Maven build ...` and set `clean javafx:run` in the goals field. Then press `Run`
+
 #### Task D.2 Running the Chat application
 
 Start by testing the system by running the broker and two clients on the same machine. The broker will run on the TCP/IP port specified in the class BrokerServer.java and you start the broker server by running the main-method in this class. Try creating topics and then publish some messages.
