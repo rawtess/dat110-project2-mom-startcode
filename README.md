@@ -46,7 +46,7 @@ In addition, there are two optional - and more challenging task for those who in
 
 ### Getting started - obtaining the start-code and the unit-test projects
 
-#### Fork and Clone the start-code repository
+#### Use-as-template and Clone the start-code repository
 
 One member of the group should start by entering the following repository on github:
 
