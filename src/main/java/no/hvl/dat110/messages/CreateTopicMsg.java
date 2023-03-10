@@ -7,10 +7,10 @@ public class CreateTopicMsg extends Message {
 
     public CreateTopicMsg(String user, String topic) {
     	super(MessageType.CREATETOPIC, user);
-    	this.topic = topic;
-    	if (topic.length() <= 0) {
+    	if (topic == null) {
     		throw new IllegalArgumentException();
     	}
+    	this.topic = topic;
     }
     
     public String getTopic() {
